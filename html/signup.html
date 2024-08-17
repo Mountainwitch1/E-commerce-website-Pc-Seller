@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a5ff8ac5e6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="Login">
+
+   
+        <form action="Login" method="post">
+            <h1>Signup</h1>
+
+
+            <label for="fname" id="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            <label for="email" id="email" aria-required="true">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required><br>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option style="text-align: left;" value="australia" selected>Australia</option>
+                <option style="text-align: left;" value="brazil">Brazil</option>
+                <option style="text-align: left;" value="canada">Canada</option>
+                <option style="text-align: left;" value="Denmark">Denmark</option>
+                <option style="text-align: left;" value="Ethopia">Ethopia</option>
+                <option style="text-align: left;" value="Finland">Finland</option>
+                <option style="text-align: left;" value="germany">Germany</option>
+                <option style="text-align: left;" value="hungary">Hungary</option>
+                <option style="text-align: left;" value="Ireland">Ireland</option>
+                <option style="text-align: left;" value="Japan">Japan</option>
+                <option style="text-align: left;" value="Kenya">Kenya</option>
+                <option style="text-align: left;" value="Luxemborg">Luxemborg</option>
+                <option style="text-align: left;" value="Myanmar">Myanmar</option>
+                <option style="text-align: left;" value="Nepal">Nepal</option>
+                <option style="text-align: left;" value="Oman">Oman</option>
+                <option style="text-align: left;" value="Poland">Poland</option>
+                <option style="text-align: left;" value="qatar">Qatar</option>
+                <option style="text-align: left;" value="Russia">Russia</option>
+                <option style="text-align: left;" value="Saudi Arabia">Saudi Arabia</option>
+                <option style="text-align: left;" value="Turkey">Turkey</option>
+                <option style="text-align: left;" value="United Kingdom">United Kingdom</option>
+                <option style="text-align: left;" value="Vietnam">Vietnam</option>
+                <option style="text-align: left;" value="Wales">Wales</option>
+                <option style="text-align: left;" value="Yemen">Yemen</option>
+                <option style="text-align: left;" value="Zimbabwe">Zimbabwe</option>
+            </select>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Your password.."
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{
+                8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least
+                8 or more characters">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" id="cpassword" name="cpassword" placeholder="Confirm password.."pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain at least one number and one uppercase and lowercase letter, and at least
+                    8 or more characters">
+
+            
+            <button type="submit">Signup</button>
+            <br><br><hr>
+            <p>Already have Account <a href="/html/signin.html">Sign in here!</a></p><br>
+            <br>
+        </form><br>
+        </div>
+        
+        <br>
+
+
+
+
+     <div class="fixed-footer">
+        <div class="nav">
+            <!-- <p href="contact.html">Copyright &copy; 2023 Astra Buy</p> -->
+            <a target="_blank" href="https://www.facebook.com" class="fa fa-facebook"></a>
+               <a target="_blank" href="https://github.com/Mountainwitch1" class="fa fa-github"></a>
+                <a  target="_blank" href="mailto:abineshacharya760@gmail.com" class="fa fa-google"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/abinesh-acharya-98998727b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqjAcZsLISkOL%2FH5TbRnFLQ%3D%3D" class="fa fa-linkedin"></a>
+                <a target="_blank" href="https://www.youtube.com/@ashimacharya575" class="fa fa-youtube"></a>
+        </div>
+    </div>
+</body>
+</html>
